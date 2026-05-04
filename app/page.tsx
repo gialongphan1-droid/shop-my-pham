@@ -116,7 +116,7 @@ export default function AllurePage() {
 
 			{/* --- FOOTER --- */}
 			<footer className="text-center py-10 opacity-50 font-serif text-sm tracking-widest border-t border-zinc-100 dark:border-zinc-900 mx-10">
-				© {new Date().getFullYear()} TRANGALLURE.SHOP - BEAUTY & TIMELESS PIECES
+				© {new Date().getFullYear()} TRANGALLURE.SHOP - MADE BY LONG PHAN
 			</footer>
 		</div>
 	);
