@@ -1,6 +1,6 @@
 "use client";
 
-import link from "next/link";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ArrowRight, ShoppingBag } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -39,9 +39,9 @@ export default function AllurePage() {
 					<a href="#" className="hover:text-pink-500 transition">
 						Mỹ Phẩm
 					</a>
-					<link href="/app/dong-ho" className="hover:text-pink-500 transition">
+					<Link href="/app/dong-ho" className="hover:text-pink-500 transition">
 						Đồng Hồ
-					</link>
+					</Link>
 					<a href="#" className="hover:text-pink-500 transition">
 						Bộ Sưu Tập
 					</a>
