@@ -12,7 +12,7 @@ const playfair = Playfair_Display({
 
 const lobster = Lobster({
 	weight: "400",
-	subsets: ["latin"],
+	subsets: ["latin", "vietnamese"],
 	variable: "--font-lobster",
 });
 
