@@ -23,9 +23,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="vi" suppressHydrationWarning>
-			<body
-				className={`${playfair.variable} ${lobster.variable} font-serif antialiased`}
-			>
+			<body className={`${playfair.variable} ${lobster.variable} antialiased`}>
 				<ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 					{/* XÓA ĐOẠN FIXED DIV NÀY ĐI */}
 					{/* <div className="fixed top-4 right-4 z-50">
